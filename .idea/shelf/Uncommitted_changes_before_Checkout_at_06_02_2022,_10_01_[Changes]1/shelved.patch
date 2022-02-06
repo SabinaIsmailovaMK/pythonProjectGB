@@ -1,0 +1,19 @@
+Index: Ismailova_lessons_5.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ismailova_lessons_5.py b/Ismailova_lessons_5.py
+new file mode 100644
+--- /dev/null	
++++ b/Ismailova_lessons_5.py	
+@@ -0,0 +1,8 @@
++#Задание 1
++#Задание 2
++#Задание 3
++#Задание 4
++
++#Задание 5
++#Задание 6
++#Задание 7
+\ No newline at end of file
