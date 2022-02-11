@@ -18,8 +18,8 @@ class TrafficLight:
 TrafficLight = TrafficLight()
 TrafficLight.turn_on()
 
-#Задание  2
 
+#Задание  2
 class Road:
     __length = None
     __width = None
@@ -38,6 +38,7 @@ class Road:
 
 road = Road(20, 5000)
 road.pokrytie()
+
 
 #Задание 3
 class Worker:
@@ -61,6 +62,7 @@ a = Position('Sabina', 'Ismailova ','Data analyst', 35000, 7000)
 print(a.get_full_name())
 print(a.position)
 print(a.get_total_income())
+
 
 #Задание 4
 class Car:
@@ -123,15 +125,15 @@ class PoliceCar(Car):
 
 
 BMW = SportCar(130, 'graphite', 'BMW', False)
-sneakers = TownCar(40,'multicolor' ,'sneakers' , False)
+sneakers = TownCar(45,'multicolor' ,'sneakers' , False)
 telega = WorkCar(30,'brown' ,'telega' , False)
 tayota = PoliceCar(60,'white' ,'tayota' , True)
 
-print(f'Шёл как-то {sneakers.go()} мимо,')
-print(f'И стал свитетелем того, как {telega.turn_left()} включила. {BMW.stop()} вынужден был совершить.')
-print(f'И {telega.color} транспортное средство едет на {telega.show_speed()}.')
-print(f'Навстречу {tayota.color} рука закона, так ведь?  {tayota.is_police}')
-print(f'{tayota.name} уволокла {telega.name}(у) вскорости в закат.')
+print(f' {sneakers.go()} и {sneakers.turn_right()}')
+print(f'{telega.color} включает  {telega.turn_left()} и гонится за {BMW.go()}')
+print(f' {tayota.color} {tayota.show_speed()}.')
+print(f'Это Police? - {tayota.is_police}')
+print(sneakers.show_speed())
 
 
 #Задание 5
